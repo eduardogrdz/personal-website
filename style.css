@@ -64,9 +64,7 @@ body, html {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-.carousel-item {
-  height: 300px;
-}
+
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
