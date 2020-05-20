@@ -115,8 +115,8 @@ figure {
 }
 
 .social a{
-  font-size: 3rem;
-  padding: 2rem;
+  font-size: 50px;
+  padding: 32px;
 }
 .fa-facebook{
   color: #3b5998;
@@ -132,16 +132,16 @@ figure {
 }
 
 .fa-facebook:hover {
-  color: #d5d5d5;
+  color: #a8a8a8;
 }
 .fa-twitter:hover {
-  color: #d5d5d5;
+  color: #a8a8a8;
 }
 .fa-linkedin:hover {
-  color: #d5d5d5;
+  color: #a8a8a8;
 }
 .fa-instagram:hover {
-  color: #d5d5d5;
+  color: #a8a8a8;
 }
 
 /*
