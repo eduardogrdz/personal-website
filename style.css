@@ -4,8 +4,16 @@
 
 
 
+#about{
+  color: black;
+}
 
-
+.about hr {
+  border-top: 2px solid black;
+  width: 90%;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
 /*background pic*/
 
 body, html { 
@@ -65,6 +73,7 @@ body, html {
   backface-visibility: visible;
 }
 
+
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
@@ -103,6 +112,36 @@ figure {
 
 .navbar-nav li a {
   color:red;
+}
+
+.social a{
+  font-size: 3rem;
+  padding: 2rem;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00acee;
+}
+.fa-linkedin{
+  color: #0e76a8;
+}
+.fa-instagram{
+  color: #517fa4;
+}
+
+.fa-facebook:hover {
+  color: #d5d5d5;
+}
+.fa-twitter:hover {
+  color: #d5d5d5;
+}
+.fa-linkedin:hover {
+  color: #d5d5d5;
+}
+.fa-instagram:hover {
+  color: #d5d5d5;
 }
 
 /*
