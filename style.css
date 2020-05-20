@@ -108,15 +108,38 @@ figure {
     padding: 1rem;
 }
 
+/* ABOUT PAGE */
+.timeline{
+  width: 400px;
 
-
-.navbar-nav li a {
-  color:red;
+}
+.timeline p{
+  border-top: 2px dashed;
+  border-color: blue !important;
+  margin:0; padding: 30px;
 }
 
+.timeline p:nth-child(even) {
+  border-left: 2px dashed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 30px; 
+  padding-right: 0;
+}
+.timeline p:nth-child(odd) {
+  border-right: 2px dashed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 30px; 
+  padding-left: 0;
+}
+
+
+
+/* FOOTER */
 .social a{
   font-size: 50px;
-  padding: 32px;
+  padding: 30px;
 }
 .fa-facebook{
   color: #3b5998;
