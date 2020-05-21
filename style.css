@@ -111,6 +111,14 @@ figure {
 
 /* ABOUT PAGE */
 
+/* carousel*/
+#slides{
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+
 /*Timeline start*/
 .timeline{
   width: 400px;
