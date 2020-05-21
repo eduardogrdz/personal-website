@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-
-
-
+.nav-item{
+  font-size: 20px;
+  color: #00acee;
+} 
 
 #about{
   color: black;
@@ -118,9 +119,13 @@ figure {
 .timeline p{
   border-top: 2px dashed;
   border-color: blue !important;
-  margin:0; padding: 30px;
+  margin:0; 
+  padding: 30px;
 }
+.timeline p:last-child {
+  border-bottom: 2px dashed;
 
+}
 .timeline p:nth-child(even) {
   border-left: 2px dashed;
   border-top-left-radius: 30px;
@@ -135,13 +140,18 @@ figure {
   margin-left: 30px; 
   padding-left: 0;
 }
+
 /*Timeline end*/
 
 
 /* FOOTER */
+footer{
+  background-color: black;
+  color: white;
+}
 .social a{
   font-size: 50px;
-  padding: 30px;
+  padding: 23px;
 }
 .fa-facebook{
   color: #3b5998;
