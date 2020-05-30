@@ -19,7 +19,7 @@
   .nav-item a:hover {
     border-bottom: 2px solid black;
   }
-  li.active {
+  .nav-item.active {
     border-bottom: 2px solid black;
   }
 /*----------------------------------------------------------------*/
@@ -65,19 +65,6 @@
   }
 /*----------------------------------------------------------------*/
 
-
-
-#about{
-  color: black;
-}
-
-.about hr {
-  border-top: 2px solid black;
-  width: 90%;
-  margin-bottom: 1rem;
-  margin-top: -1rem;
-}
-/*background pic*/
 
 
 
@@ -143,15 +130,17 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
 /* ABOUT PAGE */
+  #about{
+    color: black;
+  }
 
-/* carousel*/
-#slides{
-  width: 75%;
-  height: 75%;
-  object-fit: contain;
-}
+  .about hr {
+    border-top: 2px solid black;
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }  
 
 
 /*Timeline start*/
