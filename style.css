@@ -1,8 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-.nav-item{
-  font-size: 20px;
-} 
+/*NAVBAR*/
+  #homebar {
+    background-color: transparent !important; 
+    border-bottom-color: white;
+  }
+  #homebar a:hover {
+    border-bottom: 1px solid white;
+  }
+  #homebar li.active {
+    border-bottom: 1px solid white;
+  }
+  .nav-item{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+  } 
+
+  
+/*INDEX*/
+  #maroon{
+    color: #500000;
+    -webkit-text-stroke: .7px white;
+  }
+
+  /*text on home page*/
+  .name{
+    font-size: 75px;
+    color:white;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    font-family: 'Oswald', sans-serif;
+  }
+  .backtext{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+   
+  }
+
+  /*apparently this makes the background pic full*/
+  body, html { 
+    height: 100%;
+  }
+
+  .bg { 
+    /* The image used */
+    background-image: url("images/background.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
 
 
 #about{
@@ -17,38 +72,10 @@
 }
 /*background pic*/
 
-body, html { 
-  height: 100%;
-}
 
-.bg { 
-  /* The image used */
-  background-image: url("images/background.jpg");
 
-  /* Full height */
-  height: 100%; 
 
-  /* Center and scale the image */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-/*text on home page*/
-.py-5, h1{
-  font-size: 75px;
-  color:rgb(255, 255, 255);
-}
-
-.backtext{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  color: white;
-}
-
-#maroon{
-  color: maroon;
-}
 
 
 /*---Media Queries --*/
@@ -154,39 +181,42 @@ figure {
 
 
 /* FOOTER */
-footer{
-  background-color: black;
-  color: white;
-}
-.social a{
-  font-size: 50px;
-  padding: 23px;
-}
-.fa-facebook{
-  color: #3b5998;
-}
-.fa-twitter{
-  color: #00acee;
-}
-.fa-linkedin{
-  color: #0e76a8;
-}
-.fa-instagram{
-  color: #517fa4;
-}
+  footer{
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+  .social a{
+    font-size: 50px;
+    padding: 18px;
+    padding-top: 0px;
+  }
+  .fa-facebook{
+    color: #3b5998;
+  }
+  .fa-twitter{
+    color: #00acee;
+  }
+  .fa-linkedin{
+    color: #0e76a8;
+  }
+  .fa-instagram{
+    color: #517fa4;
+  }
 
-.fa-facebook:hover {
-  color: #a8a8a8;
-}
-.fa-twitter:hover {
-  color: #a8a8a8;
-}
-.fa-linkedin:hover {
-  color: #a8a8a8;
-}
-.fa-instagram:hover {
-  color: #a8a8a8;
-}
+  .fa-facebook:hover {
+    color: #a8a8a8;
+  }
+  .fa-twitter:hover {
+    color: #a8a8a8;
+  }
+  .fa-linkedin:hover {
+    color: #a8a8a8;
+  }
+  .fa-instagram:hover {
+    color: #a8a8a8;
+  }
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
