@@ -284,7 +284,65 @@
   .btn-secondary{
     background-color: #FF605C;
   }
+  .purple {
+    /* The image used */
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url("images/spanish.jpg");
 
+    height: 35%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .purple:hover{
+    background-image: url("images/spanish.jpg");
+  }
+  .purple button{
+    height: 100%;
+    width: 100%; 
+    background-color: transparent; 
+    border: none;
+  }
+
+  .green {
+    /* The image used */
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(4, 78, 17, 0.73)),
+    url("images/website.png");
+
+    height: 35%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .green:hover{
+    background-image: url("images/website.png");
+  }
+  .green button{
+    height: 100%;
+    width: 100%; 
+    background-color: transparent; 
+    border: none;
+  }
+
+  .orange {
+    /* The image used */
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(204, 156, 79, 0.73) , rgba(182, 120, 21, 0.73)),
+    url("images/matlab.png");
+
+    height: 35%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .orange:hover{
+    background-image: url("images/matlab.png");
+  }
+  .orange button{
+    height: 100%;
+    width: 100%; 
+    background-color: transparent; 
+    border: none;
+  }
 /*----------------------------------------------------------------*/
 
 
