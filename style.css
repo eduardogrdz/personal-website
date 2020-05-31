@@ -278,6 +278,9 @@
   .mlc{
     border: 1px solid black;
   }
+  .btn-secondary{
+    background-color: #FF605C;
+  }
 /*----------------------------------------------------------------*/
 
 /* PROJECTS*/
@@ -325,7 +328,6 @@
     background-color: transparent; 
     border: none;
   }
-
 
   .orange {
     /* The image used */
