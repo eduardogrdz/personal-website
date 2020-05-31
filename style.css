@@ -281,8 +281,10 @@
 /*----------------------------------------------------------------*/
 
 /* PROJECTS*/
-  .btn-secondary{
-    background-color: #FF605C;
+  .btnprj {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
   }
   .purple {
     /* The image used */
@@ -323,6 +325,7 @@
     background-color: transparent; 
     border: none;
   }
+
 
   .orange {
     /* The image used */
