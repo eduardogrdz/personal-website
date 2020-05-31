@@ -86,12 +86,6 @@
     color: black;
     font-family: 'Oswald', sans-serif;
   }
-  #aboutbar hr{
-    border-top: 2px solid black;
-    width: 90%;
-    margin-bottom: 1rem;
-    margin-top: -1rem;
-  }  
   .about p{
     font-family: 'Work Sans', sans-serif;
     text-indent: 40px;
@@ -268,6 +262,7 @@
     left: 43px;
   }
 /*Timeline end*/
+/*----------------------------------------------------------------*/
 
 /*INVOLVEMENT*/
   .modal-header{
@@ -283,6 +278,14 @@
   .mlc{
     border: 1px solid black;
   }
+/*----------------------------------------------------------------*/
+
+/* PROJECTS*/
+  .btn-secondary{
+    background-color: #FF605C;
+  }
+
+/*----------------------------------------------------------------*/
 
 
 /* FOOTER */
@@ -320,6 +323,7 @@
   .fa-instagram:hover {
     color: #a8a8a8;
   }
+/*----------------------------------------------------------------*/
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
