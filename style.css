@@ -81,7 +81,6 @@
     font-family: 'Work Sans', sans-serif;
     background-color: black; padding: 5px;
   }
-
   #about, .timeline-title{
     color: black;
     font-family: 'Oswald', sans-serif;
@@ -89,6 +88,12 @@
   .about p{
     font-family: 'Work Sans', sans-serif;
     text-indent: 40px;
+  }
+  .center-pic img{
+    background-color: red;
+    position: relative; 
+    top: 50%;
+    transform: translateY(-50%);
   }
 /*Timeline start*/
   .timeline,
