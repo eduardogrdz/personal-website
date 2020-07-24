@@ -38,16 +38,17 @@
   .name{
     font-size: 75px;
     color:white;
-    padding-top: 20%;
-    padding-bottom: 5%;
+    padding-top: 12%;
+    padding-bottom: 0%;
     font-family: 'Oswald', sans-serif;
+
   }
   .backtext{
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     color: white;
     font-family: 'Oswald', sans-serif;
-   
+    margin: 0;
   }
 
   /*apparently this makes the background pic full*/
@@ -362,9 +363,18 @@
     color: white;
     font-family: 'Work Sans', sans-serif;
   }
+  .col-12.left-center {
+    padding-bottom: 0;
+  }
+  .col-md-6.left-center{
+    padding-bottom: 0;
+  }
+  .col-12.right-center{
+    padding-top: 0;
+  }
   .social a{
     font-size: 50px;
-    padding: 18px;
+    padding: 15px;
   }
   .fa-facebook{
     color: #3b5998;
