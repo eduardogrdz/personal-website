@@ -97,6 +97,12 @@
     transform: translateY(-50%);
   }
 /*Timeline start*/
+  .timeline-adjust{
+    display:inline-block;
+    width:100%;
+    overflow-y:auto;
+    padding-top: 50px;
+  }
   .timeline,
   .timeline-horizontal {
     list-style: none;
@@ -363,7 +369,7 @@
     color: white;
     font-family: 'Work Sans', sans-serif;
   }
-  .col-12.left-center {
+  .col-12.left-center{
     padding-bottom: 0;
   }
   .col-md-6.left-center{
