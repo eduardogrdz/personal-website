@@ -78,9 +78,26 @@
 
 /* ABOUT PAGE */
   /*Carousel*/
+  #carouselExampleIndicators img{ 
+    height: 35rem;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  #small img {
+    max-height: 500px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel-fix{
+    padding: 3% 5% 0% 5%;
+  }
   .carousel-caption h6{
     font-family: 'Work Sans', sans-serif;
-    background-color: black; padding: 5px;
+    font-size: 20px;
   }
   #about, .timeline-title{
     color: black;
@@ -91,7 +108,6 @@
     text-indent: 40px;
   }
   .center-pic img{
-    background-color: red;
     position: relative; 
     top: 50%;
     transform: translateY(-50%);
