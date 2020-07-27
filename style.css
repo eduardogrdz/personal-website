@@ -106,11 +106,24 @@
   .about p{
     font-family: 'Work Sans', sans-serif;
     text-indent: 40px;
+    font-size: 18px;
   }
+  .about-top.col-lg-6.col-md-12{
+    padding-bottom: 0;
+  }
+  .center-pic {
+    padding-top: 0;
+  } 
   .center-pic img{
     position: relative; 
     top: 50%;
     transform: translateY(-50%);
+  }
+  hr{
+    border-top: 2px solid black; 
+    width: 90%; 
+    margin-bottom: 1rem; 
+    margin-top: -1rem;
   }
 /*Timeline start*/
   .timeline-adjust{
