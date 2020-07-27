@@ -97,7 +97,7 @@
   }
   .carousel-caption h6{
     font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
   }
   #about, .timeline-title{
     color: black;
@@ -107,6 +107,9 @@
     font-family: 'Work Sans', sans-serif;
     text-indent: 40px;
     font-size: 18px;
+  }
+  .col-md-12.about-title{
+    padding: 0%;
   }
   .about-top.col-lg-6.col-md-12{
     padding-bottom: 0;
@@ -119,14 +122,18 @@
     top: 50%;
     transform: translateY(-50%);
     -webkit-box-shadow: 17px 17px 7px gray;
+    border: 2px solid black;
   }
   hr{
     border-top: 2px solid black; 
     width: 90%; 
     margin-bottom: 1rem; 
-    margin-top: -1rem;
+    margin-top: -.3rem;
   }
 /*Timeline start*/
+  .fa-check-circle{
+    margin-bottom: 4%;
+  }
   .timeline-adjust{
     display:inline-block;
     width:100%;
@@ -145,7 +152,10 @@
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #eeeeee;
+    background: linear-gradient(to right, 
+    #1f9eba 8%, #59ba1f 14% 26%, #693be6 35% 49%, #ba1f1f 54% 69%, #d1bd10 76% 90%, rgb(124, 124, 124) 93%);
+
+    opacity: 50%;
     left: 50%;
     margin-left: -1.5px;
   }
@@ -190,7 +200,7 @@
     background-color: #1f9eba;
   }
   .timeline .timeline-item .timeline-badge.info {
-    background-color: #5bc0de;
+    background-color: #693be6;
   }
   .timeline .timeline-item .timeline-badge.success {
     background-color: #59ba1f;
@@ -235,6 +245,10 @@
   .timeline .timeline-item .timeline-panel .timeline-body > p + p {
     margin-top: 5px;
   }
+  .timeline-body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+  }
   .timeline .timeline-item:last-child:nth-child(even) {
     float: right;
   }
@@ -260,7 +274,7 @@
     bottom: 26px;
     left: 56px;
     right: 0;
-    width: 100%;
+    width: 83%;
     margin-bottom: 20px;
   }
   .timeline-horizontal .timeline-item {
