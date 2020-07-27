@@ -118,6 +118,7 @@
     position: relative; 
     top: 50%;
     transform: translateY(-50%);
+    -webkit-box-shadow: 17px 17px 7px gray;
   }
   hr{
     border-top: 2px solid black; 
