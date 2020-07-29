@@ -14,9 +14,6 @@
   #homebar .navbar-brand:hover {
     border-bottom: 0px solid white;
   }
-  #whitebar{
-    background-color: rgba(255, 255, 255) !important;
-  }
   .nav-item{
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -105,9 +102,6 @@
   .carousel-caption h6{
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
-  }
-  .button-fix{
-    background: linear-gradient(#ffffff 5%, black, #ffffff 95%);
   }
   #about, .timeline-title{
     color: black;
@@ -349,16 +343,16 @@
     padding-top: 2.5%;
     padding-bottom: 4%; 
   }
-  .col-md-12.col-lg-4.involvement:last-child{
+  .col-md-12.col-lg-4.involvement:last-child, .col-md-12.col-lg-4.projects:last-child{
     padding-bottom: 4%;
   }
   @media (max-width: 991px) and (min-width: 768px) {
-    .col-md-12.col-lg-4.involvement{
+    .col-md-12.col-lg-4.involvement, .col-md-12.col-lg-4.projects{
       padding: 2.5% 20% 0 20%;
     }
   }
   @media (max-width: 767px){
-    .col-md-12.col-lg-4.involvement{
+    .col-md-12.col-lg-4.involvement, .col-md-12.col-lg-4.projects{
       padding: 2.5% 7% 0 7%;  
     }
   }
