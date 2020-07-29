@@ -14,7 +14,9 @@
   #homebar .navbar-brand:hover {
     border-bottom: 0px solid white;
   }
-
+  #whitebar{
+    background-color: rgba(255, 255, 255) !important;
+  }
   .nav-item{
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -92,12 +94,20 @@
     margin-left: auto;
     margin-right: auto;
   }
+  @media (min-width: 860px){
+    .carousel-fix{
+      padding: 1% 0 1% 0 !important;
+    }
+  }
   .carousel-fix{
     padding: 3% 5% 0% 5%;
   }
   .carousel-caption h6{
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
+  }
+  .button-fix{
+    background: linear-gradient(#ffffff 5%, black, #ffffff 95%);
   }
   #about, .timeline-title{
     color: black;
@@ -107,6 +117,8 @@
     font-family: 'Work Sans', sans-serif;
     text-indent: 40px;
     font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .col-md-12.about-title{
     padding: 0%;
@@ -153,7 +165,7 @@
     content: " ";
     width: 3px;
     background: linear-gradient(to right, 
-    #1f9eba 8%, #59ba1f 14% 26%, #693be6 35% 49%, #ba1f1f 54% 69%, #d1bd10 76% 90%, rgb(124, 124, 124) 93%);
+    #500000 8%, #c8c8c8 14% 26%, #000000 35% 49%, #500000 54% 69%, #c8c8c8 76% 90%, #000000 93%);
 
     opacity: 50%;
     left: 50%;
@@ -197,19 +209,24 @@
     left: 0px;
   }
   .timeline .timeline-item .timeline-badge.primary {
-    background-color: #1f9eba;
+    background-color: #500000;
   }
   .timeline .timeline-item .timeline-badge.info {
-    background-color: #693be6;
+    background-color: #000000;
   }
   .timeline .timeline-item .timeline-badge.success {
-    background-color: #59ba1f;
+    border: 1px solid #000000;
+    background-color: #ffffff;
   }
   .timeline .timeline-item .timeline-badge.warning {
-    background-color: #d1bd10;
+    border: 1px solid #000000;
+    background-color: #ffffff;
   }
   .timeline .timeline-item .timeline-badge.danger {
-    background-color: #ba1f1f;
+    background-color: #500000;
+  }
+  .timeline .timeline-item .timeline-badge.last {
+    background-color: #000000;
   }
   .timeline .timeline-item .timeline-panel {
     position: relative;
@@ -320,7 +337,46 @@
 /*Timeline end*/
 /*----------------------------------------------------------------*/
 
-/*INVOLVEMENT*/
+/*INVOLVEMENT & Projects*/
+  .card-title, .card-subtitle{
+    font-family: 'Oswald', sans-serif;
+  }
+  .card-text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+  }
+  .col-md-12.col-lg-4.involvement, .col-md-12.col-lg-4.projects{
+    padding-top: 2.5%;
+    padding-bottom: 4%; 
+  }
+  .col-md-12.col-lg-4.involvement:last-child{
+    padding-bottom: 4%;
+  }
+  @media (max-width: 991px) and (min-width: 768px) {
+    .col-md-12.col-lg-4.involvement{
+      padding: 2.5% 20% 0 20%;
+    }
+  }
+  @media (max-width: 767px){
+    .col-md-12.col-lg-4.involvement{
+      padding: 2.5% 7% 0 7%;  
+    }
+  }
+  @media (min-width: 992px){
+    .align-fix{
+      margin-top: 32px;
+    }
+    .align-fix2{
+      margin-top: 32px;
+    }
+  }
+  .card-img-top{
+    display: block;
+    border-bottom: 1px solid gray;
+  }
+.card{
+    box-shadow: 20px 20px 15px #aaaaaa;
+  }
   .modal-header{
     font-family: 'Oswald', sans-serif;
   }
@@ -330,9 +386,6 @@
   }
   button{
     font-family: 'Work Sans', sans-serif;
-  }
-  .mlc{
-    border: 1px solid black;
   }
   .btn-secondary{
     background-color: #FF605C;
