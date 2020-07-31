@@ -20,7 +20,7 @@
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html"><img src="images/logo1.png"></a> <!---Icon in the top left of the page-->
 			<button class="navbar-toggler" type="button"
-			data-toggle="collapse" data-target="#navbarResponsive"> <!--creates the button on the righ side at certain size-->
+			data-toggle="collapse" data-target="#navbarResponsive"> <!--creates the button on the right side at certain size-->
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
@@ -48,22 +48,22 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-lg-4 projects">
-				<!-- Org 1 small -->
+			<!-- project 1 small -->
+			<div class="col-lg-6 projects">
 				<div class="card h-100 text-center">
-					<img class="card-img-top" src="images/spanish.jpg" alt="Spanish Card image">
+					<img class="card-img-top-proj" src="images/publicspeaking.jpg" alt="Spanish Card image">
 					<div class="card-body">
-						<h4 class="card-title">Language Fluency</h4>
+						<h4 class="card-title">Languages</h4>
 						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bilingual">
 							Learn More
 						</button>
 					</div>
 				</div>
 			</div>	
-				<!-- Org 2 small -->
-			<div class="col-md-12 col-lg-4 projects">
+			<!-- project 2 small -->
+			<div class="col-lg-6 projects">
 				<div class="card h-100 text-center">
-					<img class="card-img-top" src="images/website.png" alt="Web Development Card image">
+					<img class="card-img-top-proj" src="images/website.png" alt="Web Development Card image">
 					<div class="card-body">
 						<h4 class="card-title">Web Development</h4>
 						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#web">
@@ -72,10 +72,10 @@
 					</div>
 				</div>
 			</div>
-				<!-- Org 3 small -->
-			<div class="col-md-12 col-lg-4 projects">
+			<!-- project 3 small -->
+			<div class="col-lg-6 projects">
 				<div class="card h-100 text-center">
-					<img class="card-img-top" src="images/matlab.png" alt="Programming Card image">
+					<img class="card-img-top-proj" src="images/mentor.jpeg" alt="Programming Card image">
 					<div class="card-body">
 						<h4 class="card-title">Software and Programming</h4>
 						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#language">
@@ -84,6 +84,21 @@
 					</div>
 				</div>
 			</div>  
+			<!-- project 4 small -->
+			<div class="col-lg-6 projects">
+				<div class="card h-100 text-center">
+					<video class="card-img-top-proj" controls>
+						<source src="images/pointsheet.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="card-body">
+						<h4 class="card-title">Point Sheet Automation</h4>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pointsheet">
+							Learn More
+						</button>
+					</div>
+				</div>
+			</div>	
 		</div>
 	</div>
 
@@ -92,17 +107,17 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-				<h5 class="modal-title" id="org1">bilingual</h5>
+				<h5 class="modal-title" id="org1">Bilingual</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 				</div>
 				<div class="modal-body">
-					<p>The </p> 
-
-					<p>best</p> 
-
-					<p>org</p> 
+					<p>
+						Being born and living my childhood in Mexico gave me the advantage of developing my Spanish
+						to a proficient level. I can read, write, and speak Spanish perfectly as well English, since
+						school required me to learn the language fast. 
+					</p>
 				</div>	
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -116,17 +131,32 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-				<h5 class="modal-title" id="org2">web</h5>
+				<h5 class="modal-title" id="org2">Web Development</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 				</div>
 				<div class="modal-body">
-					<p>The </p> 
-
-					<p>best</p> 
-
-					<p>org</p> 
+					<p>
+						As part of my functions in the technical affairs committee, I was involved in the front end 
+						development of the Texas A&M's SHPE website. I learned HTML, CSS, and Bootstrap through
+						YouTube, which helped me correct mistakes and formatting issues throughout the website.
+						In addition, I got experience using GitHub as means of checking with the other leads on the 
+						progress made and to easily combine our ideas into the main website.
+					</p> 
+					<p>
+						In order to prepare for formatting the main SHPE website, the technical affairs chair 
+						tasked us with the creation of our own personal website that would act as support to our resumes.
+						I sought different resources to
+						improve my website further; carousels, navigation bars, cards, etc. Finally, I deployed my
+						website on GitHub in order for recruiters to be able to scan a QR code and access it.
+					</p>
+					<p>
+						Lastly, I created a guide for members seeking to create their own website but not knowing where
+						to start. I added a YouTube playlist with all the videos that helped me through the process, 
+						what elements to include in what tabs, pictures and videos showing the installation process
+						and helpful resources.
+					</p>
 				</div>	
 				<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -140,17 +170,67 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-				<h5 class="modal-title" id="org3">language</h5>
+				<h5 class="modal-title" id="org3">Software and Programming</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 				</div>
 				<div class="modal-body">
-					<p>The </p> 
+					<p>
+						Throughout the course of my college career, I have been exposed to different coding
+						languages, softwares, applications, etc. Some of the most remarkable ones include Verilog,
+						LTspice, C++, JavaScript, MATLAB and Python.
+					</p>
+					<p>
+						Verilog and LTspice were both used in my electrical engineering classes to model and simulate
+						electrical systems and circuits. I have used C++ as part of my class where we learned about 
+						everything relating to C++; from running and executing a program to reading in and managing data. 
+						I used JavaScript in the process of automating a point sheet system for my organization. Similarly 
+						to C++, Python was part of my introductory engineering class where we learned everything about it;
+						Python was my first programming language learned but I still use it to this day for small projects
+						or other functions I find on GitHub. Although MATLAB is not a programming language I use as often, 
+						I still have some basic experience using it in my calculus class to solve problems more efficiently. 
+					</p>
+				</div>	
+				<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-					<p>best</p> 
-
-					<p>org</p> 
+	<!--dialogue 4 inside modal-->
+	<div class="modal fade" id="language" tabindex="-1" role="dialog" aria-labelledby="pointsheet" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="org3">Point Sheet Automation</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+					<p>
+						The Society of Hispanic Professional Engineers, SHPE, has a system that allows the members
+						with the most points get sponsored to go to the SHPE National Convention. Each event has 
+						different ways to earn points which are then tallied manually by the secretary, a tedious 
+						task often taking up to two hours weekly.
+					</p>
+					<p>
+						The technical affairs chair tasked the different leads to come up with a solution that would
+						automate the process. I began by researching different platforms that could support the automation
+						but I found Google Script to be the best one since the forms and spreadsheets used to tally
+						points were already using Google services. I learned basic JavaScript through YouTube and 
+						began laying the groundwork, like creating the basic algorithm to search for a member and 
+						the addition of buttons.
+					</p>
+					<p>
+						From this, different leads in the committee improved the code into something that successfully
+						automated the previously tedious job. The code reads in the different Google Form submissions,
+						calculates the points earned by the member from that member, then looks for the member to add 
+						the points to their overall total. If it can't find a member, it highlights the member to show 
+						that it is a new member.
+					</p>
 				</div>	
 				<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

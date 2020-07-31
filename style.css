@@ -368,7 +368,7 @@
     display: block;
     border-bottom: 1px solid gray;
   }
-.card{
+  .card{
     box-shadow: 20px 20px 15px #aaaaaa;
   }
   .modal-header{
@@ -377,6 +377,7 @@
   .modal-body{
     font-family: 'Work Sans', sans-serif;
     text-indent: 40px;
+    text-align: justify;
   }
   #modal-scroll{
     overflow-y: initial !important;
@@ -399,64 +400,26 @@
     text-transform: uppercase;
     font-size: 30px;
   }
-  .purple {
-    /* The image used */
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url("images/spanish.jpg");
-
-    height: 35%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  @media (max-width: 576px) {
+    .card-img-top-proj {
+      width: 100%;
+      height: 50vw;
+      object-fit: cover;
+    }
   }
-  .purple:hover{
-    background-image: url("images/spanish.jpg");
+  @media (max-width: 991px) and  (min-width: 576px){
+    .card-img-top-proj {
+      width: 100%;
+      height: 35vw;
+      object-fit: cover;
+    }
   }
-  .purple button{
-    height: 100%;
-    width: 100%; 
-    background-color: transparent; 
-    border: none;
-  }
-
-  .green {
-    /* The image used */
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(4, 78, 17, 0.73)),
-    url("images/website.png");
-
-    height: 35%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .green:hover{
-    background-image: url("images/website.png");
-  }
-  .green button{
-    height: 100%;
-    width: 100%; 
-    background-color: transparent; 
-    border: none;
-  }
-
-  .orange {
-    /* The image used */
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(204, 156, 79, 0.73) , rgba(182, 120, 21, 0.73)),
-    url("images/matlab.png");
-
-    height: 35%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .orange:hover{
-    background-image: url("images/matlab.png");
-  }
-  .orange button{
-    height: 100%;
-    width: 100%; 
-    background-color: transparent; 
-    border: none;
+  @media (min-width: 992px){
+    .card-img-top-proj {
+      width: 100%;
+      height: 25vw;
+      object-fit: cover;
+    }
   }
 /*----------------------------------------------------------------*/
 
