@@ -378,6 +378,13 @@
     font-family: 'Work Sans', sans-serif;
     text-indent: 40px;
   }
+  #modal-scroll{
+    overflow-y: initial !important;
+  }
+  #modal-scroll-body{
+    max-height: 500px; 
+    overflow-y: auto;
+  }
   button{
     font-family: 'Work Sans', sans-serif;
   }
