@@ -343,8 +343,8 @@
     padding-top: 2.5%;
     padding-bottom: 4%; 
   }
-  .col-md-12.col-lg-4.involvement:last-child, .col-md-12.col-lg-4.projects:last-child{
-    padding-bottom: 4%;
+  .col-md-12.col-lg-4.involvement:last-child{
+    padding-bottom: 5%;
   }
   @media (max-width: 991px) and (min-width: 768px) {
     .col-md-12.col-lg-4.involvement, .col-md-12.col-lg-4.projects{
@@ -382,7 +382,7 @@
   #modal-scroll{
     overflow-y: initial !important;
   }
-  #modal-scroll-body{
+  #modal-scroll-body, .modal-body{
     max-height: 500px; 
     overflow-y: auto;
   }
@@ -420,6 +420,9 @@
       height: 25vw;
       object-fit: cover;
     }
+  }
+  .project-desktop{
+    padding-bottom: 2%;
   }
 /*----------------------------------------------------------------*/
 
