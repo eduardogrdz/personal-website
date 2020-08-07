@@ -420,6 +420,10 @@
       height: 25vw;
       object-fit: cover;
     }
+    .card-small {
+      width: 25vw;
+      margin: 0 auto;
+    }
   }
   .project-desktop{
     padding-bottom: 2%;
